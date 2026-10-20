@@ -1,0 +1,12 @@
+# Building the model
+pandas>=2.2
+scikit-learn>=1.5
+joblib>=1.4
+numpy>=1.26
+
+# Serving the model: FastAPI with the `fastapi` command, uvicorn and httpx
+fastapi[standard]>=0.115
+
+# Testing
+pytest>=8
+httpx>=0.27

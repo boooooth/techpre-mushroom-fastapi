@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+# Trained models: recreate anytime with `python train_mushroom.py`
+models/*.joblib
